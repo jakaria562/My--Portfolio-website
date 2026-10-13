@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+
+  <title>Jakaria Hossain | Portfolio</title>
+  <meta name="description" content="Jakaria Hossain - Computer Science student and aspiring Frontend Developer.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">JAKA<span>RIA.</span></a>
+
+      <button id="menu-btn" class="menu-btn"
+        aria-label="Open navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div id="nav-menu" class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#projects" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact me</a>
+        <a href="#contact" class="nav-hire mobile-hire">Hire Me</a>
+      </div>
+
+      <a href="#contact" class="nav-hire desktop-hire">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">HI, I AM</p>
+
+        <h1 class="hero-name">Ali
+          Jakaria<br>
+          <span>Hossain.</span>
+        </h1>
+
+        <h2 class="hero-role">
+          Web <span>Developer</span>
+        </h2>
+
+        <p class="hero-description">
+          I create modern, responsive and user-friendly websites.
+          I enjoy turning ideas into clean digital experiences and
+          continuously improving my web development skills.
+        </p>
+
+        <div class="social-links">
+          <a href="https://github.com/jakaria562"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="GitHub">
+            <i data-lucide="github"></i>
+          </a>
+
+          <a href="mailto:jakariahosen1000@gmail.com"
+             aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+
+          <a href="#projects" aria-label="Projects">
+            <i data-lucide="code-2"></i>
+          </a>
+
+          <a href="#contact" aria-label="Contact">
+            <i data-lucide="send"></i>
+          </a>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            Hire Me <i data-lucide="arrow-up-right"></i>
+          </a>
+
+          <a href="#projects" class="btn btn-secondary">
+            View My Work <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>01<span>+</span></h3>
+            <p>Learning Journey</p>
+          </div>
+
+          <div class="stat">
+            <h3>03<span>+</span></h3>
+            <p>Project Concepts</p>
+          </div>
+
+          <div class="stat">
+            <h3>100<span>%</span></h3>
+            <p>Ready to Learn</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-area reveal">
+        <div class="image-circle"></div>
+        <div class="image-outline"></div>
+
+        <img
+          src="image/my-image.jpg"
+          alt="Jakaria Hossain"
+          class="hero-image"
+        >
+
+        <div class="floating-badge badge-top">
+          <i data-lucide="code-2"></i>
+          <span>Web Developer</span>
+        </div>
+
+        <div class="floating-badge badge-bottom">
+          <span class="online-dot"></span>
+          <span>Open to Opportunities</span>
+        </div>
+
+        <span class="image-decoration decoration-one">J.</span>
+        <span class="image-decoration decoration-two">&lt;/&gt;</span>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="section-header reveal">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>My <span>Services</span></h2>
+        <p>Areas of web development I'm focusing on.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="card-icon">
+            <i data-lucide="monitor-smartphone"></i>
+          </div>
+          <h3>Responsive Web Design</h3>
+          <p>
+            Building responsive layouts that adapt to desktop,
+            tablet and mobile screens.
+          </p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-icon">
+            <i data-lucide="palette"></i>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>
+            Creating clean interfaces using HTML, CSS, JavaScript
+            and modern styling tools.
+          </p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-icon">
+            <i data-lucide="code-2"></i>
+          </div>
+          <h3>Interactive Websites</h3>
+          <p>
+            Adding useful interactions, dynamic content and
+            API-powered features to web projects.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h3>
+            Passionate about building
+            <span>for the web.</span>
+          </h3>
+
+          <p>
+            I'm a Computer Science and Engineering student with a strong
+            interest in frontend development. I enjoy creating websites
+            that look good, work smoothly and are easy to use.
+          </p>
+
+          <p>
+            I'm currently developing my skills through hands-on projects
+            and the Programming Hero Full Stack Web Development course.
+            My goal is to become a professional developer and contribute
+            to real-world projects.
+          </p>
+
+          <a href="#contact" class="btn btn-primary">
+            Let's Talk <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <div class="about-details reveal">
+          <div class="detail-item">
+            <span class="detail-icon">
+              <i data-lucide="graduation-cap"></i>
+            </span>
+            <div class="box-1">
+              <small>Education</small>
+              <h4>B.Sc. in Computer Science & Engineering</h4>
+              <p>University of South Asia</p>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-icon">
+              <i data-lucide="book-open"></i>
+            </span>
+            <div>
+              <small>Training</small>
+              <h4>Full Stack Web Development</h4>
+              <p>Programming Hero — Ongoing</p>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-icon">
+              <i data-lucide="briefcase-business"></i>
+            </span>
+            <div>
+              <small>Career Goal</small>
+              <h4>Frontend Developer Intern</h4>
+              <p>Open to learning opportunities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-header reveal">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Technical <span>Skills</span></h2>
+        <p>Technologies I use and continue to learn.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <span class="skill-symbol">5</span>
+          <h3>HTML5</h3>
+          <p>Semantic Markup</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">3</span>
+          <h3>CSS3</h3>
+          <p>Styling & Layouts</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">JS</span>
+          <h3>JavaScript</h3>
+          <p>Interactive Features</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">TW</span>
+          <h3>Tailwind CSS</h3>
+          <p>Utility-first Styling</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">Re</span>
+          <h3>React</h3>
+          <p>Component-based UI</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">Git</span>
+          <h3>Git & GitHub</h3>
+          <p>Version Control</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">API</span>
+          <h3>REST APIs</h3>
+          <p>Fetch & JSON</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span class="skill-symbol">RWD</span>
+          <h3>Responsive UI</h3>
+          <p>Mobile-first Design</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="section-header reveal">
+        <p class="eyebrow">MY RECENT WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Selected projects and concepts from my learning journey.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-one">
+            <i data-lucide="list-checks"></i>
+            <span>WEB APPLICATION</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">PROJECT 01</p>
+            <h3>GitHub Issues Tracker</h3>
+            <p>
+              An issue tracking interface with search, status filters,
+              API integration and issue details.
+            </p>
+
+            <div class="tech-list">
+              <span>HTML</span>
+              <span>Tailwind CSS</span>
+              <span>JavaScript</span>
+              <span>API</span>
+            </div>
+
+            <a class="project-link"
+               href="https://github.com/jakaria562"
+               target="_blank" rel="noopener noreferrer">
+              View Project <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-two">
+            <i data-lucide="shopping-bag"></i>
+            <span>ECOMMERCE CONCEPT</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">PROJECT 02</p>
+            <h3>StyleNest</h3>
+            <p>
+              A modern fashion store concept designed to showcase
+              products and create a smooth shopping experience.
+            </p>
+
+            <div class="tech-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a class="project-link"
+               href="https://github.com/jakaria562"
+               target="_blank" rel="noopener noreferrer">
+              View Project <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-three">
+            <i data-lucide="panels-top-left"></i>
+            <span>PERSONAL WEBSITE</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-number">PROJECT 03</p>
+            <h3>Personal Portfolio</h3>
+            <p>
+              A personal portfolio showcasing my background,
+              technical skills, selected work and contact details.
+            </p>
+
+            <div class="tech-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a class="project-link"
+               href="https://github.com/jakaria562"
+               target="_blank" rel="noopener noreferrer">
+              View GitHub <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="center-button reveal">
+        <a href="https://github.com/jakaria562"
+           target="_blank" rel="noopener noreferrer"
+           class="btn btn-secondary">
+          <i data-lucide="github"></i>
+          Explore GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="contact-box reveal">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+        <h2>Let's Work <span>Together.</span></h2>
+
+        <p class="contact-description">
+          I'm interested in internship opportunities, collaborations
+          and projects where I can learn and grow as a developer.
+        </p>
+
+        <a href="mailto:jakariahosen1000@gmail.com?subject=Portfolio%20Contact"
+           class="btn btn-primary">
+          Get In Touch <i data-lucide="mail"></i>
+        </a>
+
+        <div class="contact-socials">
+          <a href="https://github.com/jakaria562"
+             target="_blank" rel="noopener noreferrer">
+            <i data-lucide="github"></i>
+            GitHub
+          </a>
+
+          <a href="mailto:jakariahosen1000@gmail.com">
+            <i data-lucide="mail"></i>
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">JAKA<span>RIA.</span></a>
+
+    <p>Designed & built by Jakaria Hossain.</p>
+
+    <a href="#home" class="back-to-top">
+      Back to top <i data-lucide="arrow-up"></i>
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
